@@ -28,7 +28,7 @@ class Router
         //$currentUrl = strtok($_SERVER['SCRIPT_NAME'], '?') ?? '/';
         $currentUrl = $_SERVER['SCRIPT_NAME'] ?? '/';
         $method = $_SERVER['REQUEST_METHOD'];
-        
+        debugear($currentUrl);
         if ($method === 'GET') {
             $fn = $this->getRoutes[$currentUrl] ?? null;
         } else {
