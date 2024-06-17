@@ -27,7 +27,7 @@ class Router
         //$currentUrl = $_SERVER['PATH_INFO'] ?? '/';
         $currentUrl = strtok($_SERVER['REQUEST_URI'], '?') ?? '/';
         $method = $_SERVER['REQUEST_METHOD'];
-
+        debuguear($currentUrl);
         if ($method === 'GET') {
             $fn = $this->getRoutes[$currentUrl] ?? null;
         } else {
@@ -40,7 +40,6 @@ class Router
             header('Location:/');
         }
         
-        debuguear($fn);
         
         if ( $fn ) {
             // Call user fn va a llamar una función cuando no sabemos cual sera
