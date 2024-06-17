@@ -34,7 +34,6 @@ class Router
         } else {
             $fn = $this->postRoutes[$currentUrl] ?? null;
         }
-        debugear($fn);
         //Proteger las rutas
         if(in_array($currentUrl,$rutas_protegidas) && !$auth)
         {
