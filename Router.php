@@ -24,8 +24,9 @@ class Router
         '/material_crear','/material_actualizar','/moneda_crear','/moneda_actualizar'
         ];
 
-        $currentUrl = $_SERVER['PATH_INFO'] ?? '/';
-        //$currentUrl = strtok($_SERVER['REQUEST_URI'], '?') ?? '/';
+        //$currentUrl = $_SERVER['PATH_INFO'] ?? '/';
+        //$currentUrl = strtok($_SERVER['SCRIPT_NAME'], '?') ?? '/';
+        $currentUrl = $_SERVER['SCRIPT_NAME'] ?? '/';
         $method = $_SERVER['REQUEST_METHOD'];
         debuguear($currentUrl);
         if ($method === 'GET') {
