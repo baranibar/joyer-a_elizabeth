@@ -14,6 +14,7 @@ use Model\Producto;
 
 $router = new Router();
 
+$router->get('/', [PaginasController::class, 'inicio']);
 $router->get('/inicio', [PaginasController::class, 'inicio']);
 $router->get('/joyas', [PaginasController::class, 'joyas']);
 $router->get('/login', [LoginController::class, 'login']);
