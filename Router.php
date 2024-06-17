@@ -27,7 +27,7 @@ class Router
         //$currentUrl = $_SERVER['PATH_INFO'] ?? '/';
         //$currentUrl = strtok($_SERVER['SCRIPT_NAME'], '?') ?? '/';
         $currentUrl = $_SERVER['SCRIPT_NAME'] ?? '/';
-        //$currentUrl = "/inicio";
+        debuguear($currentUrl);
         $method = $_SERVER['REQUEST_METHOD'];
         
         if ($method === 'GET') {
