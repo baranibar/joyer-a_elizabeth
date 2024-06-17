@@ -29,19 +29,19 @@ class Router
         $currentUrl = strtok($_SERVER['REQUEST_URI'], '?') ?? '/';
         
         $method = $_SERVER['REQUEST_METHOD'];
-
+        
         if ($method === 'GET') {
             $fn = $this->getRoutes[$currentUrl] ?? null;
         } else {
             $fn = $this->postRoutes[$currentUrl] ?? null;
         }
-
         //Proteger las rutas
         if(in_array($currentUrl,$rutas_protegidas) && !$auth)
         {
             header('Location:/');
         }
-
+        
+        
         if ( $fn ) {
             // Call user fn va a llamar una función cuando no sabemos cual sera
             call_user_func($fn, $this); // This es para pasar argumentos
