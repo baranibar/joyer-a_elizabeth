@@ -1,0 +1,339 @@
+/*
+
+TemplateMo 559 Zay Shop
+
+https://templatemo.com/tm-559-zay-shop
+
+---------------------------------------------
+Table of contents
+------------------------------------------------
+1. Typography
+2. General
+3. Nav
+4. Her
+o Carousel
+5. Accordion
+6. Shop
+7. Product
+8. Carousel Hero
+9. Carousel Brand
+10. Services
+11. Contact map
+12. Footer
+13. Small devices (landscape phones, 576px and up)
+14. Medium devices (tablets, 768px and up)
+15. Large devices (desktops, 992px and up)
+16. Extra large devices (large desktops, 1200px and up)
+--------------------------------------------- */
+
+:root {
+  --gold: #b79663;
+  --silver: #C0C0C0;
+  --black: #323c46;
+  --white: #FFFFFF;
+  --champagne: #F7E7CE;
+  --dark-gray: #4A4A4A;
+}
+
+.logo-hover {
+
+  color: var(--black) !important;
+}
+
+nav a {
+  color: var(--black) !important;
+  font-size: 20px !important;
+}
+
+nav a:hover {
+  color: var(--gold) !important;
+}
+
+
+footer a:hover {
+  color: var(--gold) !important;
+}
+
+.btn-primary {
+  background-color: #323c46 !important;
+  border: none !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--gold) !important;
+}
+
+.product-card {
+  /*border: 1px solid var(--gold) !important;*/
+  
+  box-sizing: border-box;
+  border: .5px solid #d9c29d !important;
+  border-radius: 8px;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+
+}
+
+.product-card .title {
+  color: var(--black) !important;
+}
+
+.product-card .price {
+  color: var(--gold) !important;
+  border: none !important;
+  font-size: 25px !important;
+  font-weight: 400 !important;
+}
+
+.gold-border {
+  border: 1px solid var(--champagne); /* Color dorado */
+  border-radius: 50%; /* Asegurar que la imagen sea circular */
+}
+
+.page-item.active .page-link {
+  background-color: var(--black); /* Color negro */
+  border-color: var(--black); /* Asegura que el borde también sea negro */
+  color: #fff; /* Color blanco para el texto */
+}
+
+.page-link {
+  transition: background-color 0.3s ease, color 0.3s ease !important;
+}
+
+.page-link:hover {
+  background-color: var(--gold) !important; /* Color dorado */
+  color: #fff !important; /* Color blanco */
+  border-color: var(--gold) !important; /* Asegura que el borde también sea negro */
+}
+
+/* Typography */
+body, ul, li, p, a, label, input, div {
+    font-family: 'Lato',sans-serif;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+    color: var(--black) ;
+    
+  }
+  .h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px !important;
+    font-weight: 200 !important;
+  }
+  .h2 {
+    font-family: 'Lato',sans-serif;
+    font-size: 30px !important;
+    font-weight: 300;
+  }
+  .h3 {
+    font-family: 'Lato',sans-serif;
+    font-size: 22px !important;
+  }
+
+  /* General */
+  .logo { font-weight: 500 !important;}
+  .text-warning {  color: #ede861 !important;}
+  .text-muted { color: #bcbcbc !important;}
+  .text-success { color: #59ab6e !important;}
+  .text-light { color: #cfd6e1 !important;}
+  .bg-dark { background-color: #212934 !important;}
+  /*.bg-dark { background-color: #212934 !important;}*/
+  .bg-light { background-color: #e9eef5 !important;}
+  .bg-black { background-color: #1d242d !important;}
+  .bg-success { background-color: #59ab6e !important;}
+  .bg-pink { background-color: #323c46 !important;}
+  .btn-success {
+    background-color: #59ab6e !important;
+    border-color: #56ae6c !important;
+  }
+  .pagination .page-link:hover {color: #000;}
+  .pagination .page-link:hover, .pagination .page-link.active {
+    background-color: #69bb7e;
+    color: #fff;
+  }
+  /* Nav */
+  #templatemo_nav_top { min-height: 40px;}
+  #templatemo_nav_top * { font-size: .9em !important;}
+  #templatemo_nav_group {padding: 0;}
+  /*#templatemo_main_nav a { color: #e4c5c4;}*/
+  #templatemo_main_nav a { color: #212934;}
+  #templatemo_main_nav a:hover { color: #69bb7e;}
+  #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
+
+
+  /* Hero Carousel */
+  #template-mo-zay-hero-carousel { background: #efefef !important;}
+  /* Accordion */
+  .templatemo-accordion a { color: #000;}
+  .templatemo-accordion a:hover { color: #333d4a;}
+  /* Shop */
+  .shop-top-menu a:hover { color: #b79663 !important;}
+    /* Shop */
+    .shop-left-menu a:hover { color: #b79663 !important;}
+  /* Product */
+  .product-wap { box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);}
+  .product-wap .product-color-dot.color-dot-red { background:#f71515;}
+  .product-wap .product-color-dot.color-dot-blue { background:#6db4fe;}
+  .product-wap .product-color-dot.color-dot-black { background:#000000;}
+  .product-wap .product-color-dot.color-dot-light { background:#e0e0e0;}
+  .product-wap .product-color-dot.color-dot-green { background:#0bff7e;}
+  .card.product-wap .card .product-overlay {
+    background: rgba(0,0,0,.2);
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+  }
+  .card.product-wap:hover .card .product-overlay {
+    visibility: visible;
+    opacity: 1;
+  }
+  .card.product-wap a { color: #000;}
+  #carousel-related-product .slick-slide:focus { outline: none !important;}
+  #carousel-related-product .slick-dots li button:before {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  /* Brand */
+  .brand-img {
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: .5s;
+  }
+  .brand-img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+  }
+  /* Carousel Hero */
+  #template-mo-zay-hero-carousel .carousel-indicators li {
+    margin-top: -50px;
+    background-color: #59ab6e;
+  }
+  #template-mo-zay-hero-carousel .carousel-control-next i,
+  #template-mo-zay-hero-carousel .carousel-control-prev i {
+    color: #59ab6e !important;
+    font-size: 2.8em !important;
+  }
+  /* Carousel Brand */
+  .tempaltemo-carousel .h1 {
+    font-size: .5em !important;
+    color: #000 !important;
+  }
+  /* Services */
+  .services-icon-wap {transition: .3s;}
+  .services-icon-wap:hover, .services-icon-wap:hover i {color: #fff;}
+  .services-icon-wap:hover {background: #69bb7e;}
+  /* Contact map */
+  .leaflet-control a, .leaflet-control { font-size: 10px !important;}
+  .form-control { border: 1px solid #e8e8e8;}
+  /* Footer */
+  #tempaltemo_footer a { color: #dcdde1;}
+  #tempaltemo_footer a:hover { color: #68bb7d;}
+  #tempaltemo_footer ul.footer-link-list li { padding-top: 10px;}
+  #tempaltemo_footer ul.footer-icons li {
+    width: 2.6em;
+    height: 2.6em;
+    line-height: 2.6em;
+  }
+  #tempaltemo_footer ul.footer-icons li:hover {
+    background-color: #cfd6e1;
+    transition: .5s;
+  }
+  #tempaltemo_footer ul.footer-icons li:hover i {
+    color: #212934;
+    transition: .5s;
+  }
+  #tempaltemo_footer .border-light { border-color: #2d343f !important;}
+  /*
+  // Extra small devices (portrait phones, less than 576px)
+  // No media query since this is the default in Bootstrap
+  */
+  /* Small devices (landscape phones, 576px and up)*/
+  .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {
+    font-size: 12px !important;
+  }
+  .product-wap .product-color-dot {
+    width: 6px;
+    height: 6px;
+  }
+  
+  @media (min-width: 576px) {
+    .tempaltemo-carousel .h1 { font-size: 1em !important;}
+  }
+  
+  /*// Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) {
+    #templatemo_main_nav .navbar-nav {max-width: 450px;}
+   }
+  
+  /* Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) {
+    #templatemo_main_nav .navbar-nav {max-width: 550px;}
+    #template-mo-zay-hero-carousel .carousel-item {min-height: 30rem !important;}
+    .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {font-size: 18px !important;}
+    .product-wap .product-color-dot {
+      width: 12px;
+      height: 12px;
+    }
+  }
+  
+.royal-text {
+    font-family: 'Cormorant Garamond', serif;
+}
+  /* Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) {}
+
+.whatsapp-button {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+}
+
+.whatsapp-button i {
+    margin-top: 10px;
+    font-size: 60px;
+}
+.banner {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Ajusta la altura según tus necesidades */
+  background-image: url('https://lh3.googleusercontent.com/pw/AP1GczMhBeeXouMqh1DpdP_cuu40Uh-APdqxy4CyaQm7sVTASGGNtouUvNLSJLBTrYSBW0E3p8S0B3TQt1aHVXOfspI5vxmXcDxWkGnZGJEJKHzaoolpvKBPHaLYG8S6kWgxOhyvTXBSOh5poEmbOuFCWV79=w1000-h406-s-no?authuser=0 ');
+  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  overflow: hidden;
+}
+
+.banner .texto-banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el texto */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.banner h1, .banner p {
+  margin: 0;
+}
+
+.navbar-brand img {
+  width: 50px; /* Ajusta este valor según el tamaño deseado */
+  height: auto;
+  margin-left: 10px; /* Espacio entre el texto y la imagen */
+  margin-right: 10px; /* Espacio entre el texto y la imagen */
+  margin-top: -3px; /* Ajusta este valor para subir la imagen */
+}
