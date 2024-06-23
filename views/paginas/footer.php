@@ -1,7 +1,7 @@
     <!-- Start Footer -->
 
     <!-- Botón de WhatsApp -->
-    <a href="https://wa.me/+51 923 114 523" class="whatsapp-button" target="_blank">
+    <a href="https://wa.me/+51923114523" class="whatsapp-button" target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
     
@@ -15,7 +15,7 @@
                         <ul class="list-unstyled text-light footer-link-list">
                             <li>
                                 <i class="fa fa-phone fa-fw"></i>
-                                <a class="text-decoration-none" href="tel:010-020-0340">+51 923 114 523</a>
+                                <a class="text-decoration-none" href="tel:010-020-0340">+51 923114523</a>
                             </li>
                             <li>
                                 <i class="fa fa-envelope fa-fw"></i>
@@ -37,8 +37,8 @@
                             <ul class="list-unstyled text-light footer-link-list">
                                 <li><a class="text-decoration-none" href="/inicio">Inicio</a></li>
                                 <li><a class="text-decoration-none" href="/joyas">Joyas</a></li>
-                                <li><a class="text-decoration-none" href="https://wa.me/+51 923 114 523">Nosotros</a></li>
-                                <li><a class="text-decoration-none" href="https://wa.me/+51 923 114 523">Conctacto</a></li>
+                                <li><a class="text-decoration-none" href="https://wa.me/+51923114523">Nosotros</a></li>
+                                <li><a class="text-decoration-none" href="https://wa.me/+51923114523">Conctacto</a></li>
                             </ul>
                         </div>
                 </div>

@@ -79,7 +79,11 @@
                         <div class="card product-card">
                             <div class="card-body">
                                 <h6>SKU:<?php echo $producto->id_producto; ?></h6>
-                                <h1 class="h2"><?php echo $producto->nombre; ?></h1>
+                                <?php if ($auth) : ?>
+                                   <a href="producto_actualizar?idproducto=<?php echo $producto->id_producto; ?>"><h1 class="h2"><?php echo $producto->nombre; ?></h1></a>
+                                <?php else : ?>
+                                    <h1 class="h2"><?php echo $producto->nombre; ?></h1>
+                                <?php endif; ?>
                                 <p class="h3 py-2"><?php echo $producto->simbolo_moneda; ?> <?php echo $producto->precio; ?></p>
                                 <p class="py-2">
                                     <i class="fa fa-star text-warning"></i>
@@ -118,7 +122,7 @@
                                     <input type="hidden" name="product-title" value="Activewear">
                                     <div class="row pb-3 mt-5">
                                         <div class="col d-grid">
-                                            <a href="https://wa.me/+51 923 114 523" class="btn btn-primary" target="_blank">Comprar</a>                                            
+                                            <a href="https://wa.me/+51923114523" class="btn btn-primary" target="_blank">Comprar</a>                                            
                                         </div>
                                     </div>
                                 </form>

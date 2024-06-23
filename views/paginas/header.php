@@ -37,7 +37,7 @@
                     <i class="fa fa-envelope mx-2"></i>
                     <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">elizabethjoyeria@avcompany.com</a>
                     <i class="fa fa-phone mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">+51 923 114 523</a>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">+51 923114523</a>
                 </div>
                 <div>
                     <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
@@ -81,10 +81,10 @@
                             <a class="nav-link" href="/joyas">Joyas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://wa.me/+51 923 114 523">Nosotros</a>
+                            <a class="nav-link" href="https://wa.me/+51923114523">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://wa.me/+51 923 114 523">Contacto</a>
+                            <a class="nav-link" href="https://wa.me/+51923114523">Contacto</a>
                         </li>
                     </ul>
                 </div>
