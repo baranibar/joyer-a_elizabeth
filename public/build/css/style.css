@@ -55,7 +55,7 @@ footer a:hover {
 }
 
 .btn-primary {
-  background-color: #323c46 !important;
+  background-color: #002939 !important;
   border: none !important;
 }
 
@@ -149,7 +149,7 @@ body, ul, li, p, a, label, input, div {
   .bg-light { background-color: #e9eef5 !important;}
   .bg-black { background-color: #1d242d !important;}
   .bg-success { background-color: #59ab6e !important;}
-  .bg-pink { background-color: #323c46 !important;}
+  .bg-pink { background-color: #002939 !important;}
   .btn-success {
     background-color: #59ab6e !important;
     border-color: #56ae6c !important;

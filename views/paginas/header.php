@@ -34,9 +34,9 @@
         <div class="container text-light">
             <div class="w-100 d-flex justify-content-between">
                 <div>
-                    <i class="fa fa-envelope mx-2"></i>
+                    <i class="fa fa-envelope mx-2 text-white"></i>
                     <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">elizabethjoyeria@avcompany.com</a>
-                    <i class="fa fa-phone mx-2 "></i>
+                    <i class="fa fa-phone mx-2 text-white"></i>
                     <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">+51 923114523</a>
                 </div>
                 <div>
