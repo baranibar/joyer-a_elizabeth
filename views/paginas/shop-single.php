@@ -48,11 +48,11 @@
 
                                 <!--First slide-->
                                 <div class="carousel-item active">
-                                    <div class="row">
+                                    <div class="row ">
                                         <?php foreach($productos_carrusel as $producto):?>
-                                            <div class="col-4">
+                                            <div class="col-4 ">
                                                 <a href="#">
-                                                    <img class="card-img img-fluid product-card" src=<?php echo $producto->imagen1_url; ?> alt="Product Image 1">
+                                                    <img class="card-img img-fluid product-card " src=<?php echo $producto->imagen1_url; ?> alt="Product Image 1">
                                                 </a>
                                             </div>
                                         <?php endforeach; ?>
@@ -145,8 +145,8 @@
             <!--Start Carousel Wrapper-->
             <div id="carousel-related-product">
                 <?php foreach($productos_categoria as $producto):?>        
-                    <div class="p-2 pb-3 ">
-                        <div class="product-wap card rounded-0 product-card">
+                    <div class="p-2 pb-3">
+                        <div class="product-wap card product-card">
                             <form method="GET" action="/joyas_detalle">
                                     <a href="joyas_detalle?idproducto=<?php echo $producto->id_producto; ?>"><img class="card-img rounded-0 img-fluid" src='<?php echo $producto->imagen1_url; ?>' alt='imagen del producto'></a>                                
                             </form>

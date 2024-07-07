@@ -37,7 +37,7 @@
                         <div class="row">
                             <?php foreach($productos as $producto):?>
                             <div class="col-12 col-md-4 ">
-                                <div class="card mb-4 product-wap rounded-0 product-card">
+                                <div class="product-card card mb-4 product-wap">
                                     <a href="joyas_detalle?idproducto=<?php echo $producto->id_producto; ?>"><img class="card-img rounded-0 img-fluid" src='<?php echo $producto->imagen1_url; ?>' alt='imagen del producto'></a>
                                     
                                     <div class="card-body">

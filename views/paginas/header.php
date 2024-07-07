@@ -36,7 +36,7 @@
                 <div>
                     <i class="fa fa-envelope mx-2"></i>
                     <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">elizabethjoyeria@avcompany.com</a>
-                    <i class="fa fa-phone mx-2"></i>
+                    <i class="fa fa-phone mx-2 "></i>
                     <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">+51 923114523</a>
                 </div>
                 <div>
@@ -102,11 +102,11 @@
                     </a>                    
                     <a class="nav-icon position-relative text-decoration-none" href="#">
                         <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
                     </a>
                     <a class="nav-icon position-relative text-decoration-none" href="#">
                         <i class="fa fa-fw fa-user text-dark mr-3"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
                     </a>
                     <?php if ($auth) : ?>
                         <a class="nav-icon position-relative text-decoration-none" href="/logout">
