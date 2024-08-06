@@ -122,7 +122,7 @@
                                     <input type="hidden" name="product-title" value="Activewear">
                                     <div class="row pb-3 mt-5">
                                         <div class="col d-grid">
-                                            <a href="https://wa.me/+51923114523" class="btn btn-primary" target="_blank">Comprar</a>                                            
+                                            <a href="https://wa.me/+51908887910" class="btn btn-primary" target="_blank">Comprar</a>                                            
                                         </div>
                                     </div>
                                 </form>
